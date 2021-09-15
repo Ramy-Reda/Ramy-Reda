@@ -1,0 +1,644 @@
+body
+{
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+*{ text-transform: capitalize;font-family: system-ui;}
+
+main
+{
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0;
+    z-index: 9999;
+    height: 60px;
+    padding-top: 0;
+    background: rgb(255, 253, 252);
+    box-shadow: 5px 7px 8px rgb(0 0 0 / 7%);
+    justify-content: center;
+}
+
+main .sh, main .hi {
+    float: right;
+    font-size: 25px;
+    margin: 17px;
+    display: none;
+}
+
+main h1{display: inline; margin:35px;}
+main ul
+{
+    float: right;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    justify-content: center;
+    margin-right: 80px;
+    margin-top: 8px;
+}
+
+main ul li
+{
+    float: left;
+    list-style: none;
+    margin-right: 23px;
+    color: #3636ce;
+}
+
+main ul li a{text-decoration: none;}
+
+/* End Main */
+
+/*Start Home */
+.home
+{
+    background:url(../img/home-bg.jpg);
+    background-size: cover;
+    padding-top: 55px;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.home .contant
+{
+    width: 48%;
+    align-items: center;
+    position: relative;
+}
+
+.home .contant h3
+{
+    color: #FFF;
+    font-size: 3.5rem;
+    padding-top: 60px;
+    margin-left: 40px;
+}
+
+.home .contant p
+{
+    font-size: 20px;
+    color: #FFF;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.home .contant button
+{
+    width: 130px;
+    height: 45px;
+    background: #FFF;
+    margin: 20px 145px;
+    border: none;
+    border-radius: 20px;
+    display: inline;
+}
+
+.home .contant button:hover
+{
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #333;
+}
+
+.home .img
+{
+    width: 43%;
+    margin-top: -380px;
+    margin-right: 30px;
+    float: right;
+}
+
+.home .img img
+{
+    width: 100%;
+}
+/*End Home */
+
+/*Start featur*/
+.featur
+{
+    min-height: 300px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    padding: 0 7%;
+    position: relative;
+}
+
+.head
+{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color:blue
+}
+
+.featur .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.featur .box-container .box
+{
+    width: 29%;
+    margin: 20px;
+    border: .1rem solid rgba(0,0,0,.2);
+}
+
+.featur .box-container .box img
+{
+    margin: 20px;
+}
+
+.featur .box-container .box h3
+{
+    font-size: 27px;
+    margin: 10px;
+    color: blue;
+}
+
+.featur .box-container .box p
+{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.featur .box-container .box button
+{
+    margin: 20px;
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 187, 0, 0.966);
+    border: 2px solid rgba(255, 187, 0, 0.966);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.featur .box-container .box button:hover
+{
+    background: #f85a08;
+}
+/*End featur*/
+
+/*Start OUr service*/
+.service
+{
+    background: #192a56;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service .head{color: white;}
+.service .box-container
+{
+    padding: 30px 50px;
+}
+
+.service .box-container .box 
+{
+    width: 30%;
+    border: .7px solid #fff3;
+    text-align: center;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.service .box-container .box h3
+{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.service .box-container .box p
+{
+    color: white;
+    padding: 0 10px;
+}
+.service .box-container .box button
+{
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 187, 0, 0.966);
+    border: 2px solid rgba(255, 187, 0, 0.966);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.service .box-container .box:hover{background: white;}
+.service .box-container .box:hover p{color:#192a56;}
+.service .box-container .box:hover h3{color: #333;}
+.service .box-container .box:hover  button {background: #f85a08; color: #FFF;}
+/*End Our service*/
+
+/*Start projects*/
+.project .box-container
+{
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project .box-container .box
+{
+    overflow: hidden;
+    margin: 20px;
+    height: 300px;
+    width: 30%;
+    position: relative;
+    cursor: pointer;
+    border: .1px solid rgba(0,0,0,.2);
+}
+
+.project .box-container .box img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project .box-container .box .number
+{
+    position: absolute;
+    right: 0; top: .2rem;
+    font-size: 5rem;
+    font-weight: bolder;
+    color:rgba(0,0,0,.2);
+    z-index: 10;
+}
+
+.project .box-container .box::before
+{
+    content: "";
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    transition: .3s ease-in-out;
+    clip-path: circle(30% at 95% 0);
+}
+
+.project .box-container .box:hover::before
+{
+    clip-path: circle(100%);
+}
+
+.project .box-container .box .info
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.project .box-container .box:hover .info
+{
+    transition: .4s;
+    top: 50%;
+    opacity: 1;
+}
+
+.project .box-container .box .info h4
+{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #1b2e5f;
+}
+
+.project .box-container .box .info p
+{
+    color: #333;
+    font-size: 30px;
+}
+/*End projects*/
+
+/* Start team*/
+.team
+{
+    background-color: #ffa801;
+}
+.team .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 20px 100px 128px;
+}
+
+.team .head
+{
+    color: rgb(27, 27, 27);
+    
+}
+
+.team .container .box
+{
+    width: 20%;
+    background-color: #FFF;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    border-radius: 24px;
+}
+
+.team .container .box img
+{
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 125px;
+    height: 125px;
+}
+
+.team .container .box h3
+{
+    color: #192a56;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.team .container .box span
+{
+    color: #e70404;
+}
+
+.team .container .box p
+{
+    text-align: center;
+    padding: 5px;
+    color: #7e7d7d;
+}
+
+.team .container .box .share
+{
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%;
+    background:#f95f1d;
+    display: flex;
+    justify-content: center;
+}
+
+.team .container .box .share a
+{
+    height: 37px;
+    width: 41px;
+    line-height: 34px;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.team .container .box .share a:hover
+{
+    color: #192a56;
+    background: white;
+}
+/* End team*/
+
+/*Start price*/
+.price
+{
+    background: #192a56;
+}
+
+.price .head
+{
+    padding: 60px 0;
+    margin: 0;
+    color: white;
+}
+.price .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price .container .box
+{
+    width: 27%;
+    border: .5px solid rgb(255, 230, 0);
+    margin: 16px;
+    text-align: center;
+}
+
+.price .container .box img
+{
+    margin: 25px;
+}
+
+.price .container .box h4
+{
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+
+.price .container .box p
+{
+    color: #f9a519;
+    font-size: 79px;
+    margin-top: -34px;
+    margin-bottom: 26px;
+}
+
+.price .container .box p sup
+{
+    margin-right: -14px;
+    font-size: 50px;
+}
+
+.price .container .box .massege
+{
+    padding: 20px 65px;
+    font-size: 20px;
+    color: white;
+}
+
+.price .container .box button
+{
+    width: 150px;
+    height: 44px;
+    margin: 26px;
+    background: rgba(0, 0, 0, 0);
+    color: #f9a519;
+    border: .5px solid #f9a519;
+    font-size: 20px;
+    transition: .2s;
+}
+
+.price .container .box button:hover
+{
+    color: white;
+    background: #cc961d;
+}
+/*End price*/
+
+/* Start contact*/
+    .contact
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact .head
+    {
+        color: #192a56;
+        font-weight: bolder;
+    }
+    .contact .half
+    {
+        width: 48%;
+        border: .6px solid rgba(0,0,0,.2);
+        padding: 30px;
+    }
+
+    .contact .half .inbox
+    {
+        position: relative;
+    }
+    .contact .half .inbox input
+    {
+        width: 95%;
+        height: 40px;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .contact .half .inbox  textarea
+    {
+        width: 95%;
+        height: 130px; 
+        resize: none;
+        margin: 20px;
+    }
+    .contact .half input[type="submit"]
+    {
+        background: none;
+    border: 3px solid #f7d95e;
+    width: 153px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ffcc00;
+    margin-right: 453px;
+    margin-top: 21px;
+    }
+    .contact .half .inbox label
+    {
+        position: absolute;
+        left: 40px;
+        top: 33px;
+    }
+
+    .contact .half .inbox input:focus ~ label,
+    .contact .half .inbox textarea:focus ~ label
+    {
+        transition: .3s;
+        color: rgba(255, 187, 0, 0.966);
+        left: 28px;
+        top: -8px;
+    }
+
+    
+    .contact .half .inbox input:valid ~ label,
+    .contact .half .inbox textarea:valid ~ label{
+        transition: .3s;
+    }
+
+    .contact .half2 iframe
+    {
+        height: 580px;
+    }
+
+/*End contact*/
+
+/* Start Footer*/
+.footer
+{
+    background: #192a56;
+}
+
+.footer .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .container .box
+{
+    margin: 25px;
+    width: 21%;
+}
+
+.footer .container .box h1
+{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.footer .container .box p
+{
+    font-size: 20px;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer .container .box a{
+    display: block;
+    font-size: 20px;
+    color:#fff;
+    padding:5px 0;
+    text-decoration: none;
+}
+
+article h1{
+    text-align: center;
+    color: #444;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+article h1 a 
+{
+    color: #f95f1d;
+    text-decoration: none;
+}
+/*End Footer*/
+
+/*addes*/

@@ -1,0 +1,196 @@
+@media (max-width:768px) {
+    main ul
+    {
+        display: none;
+        width: 100%;
+        background: #DDD;
+        margin-top: -10px;
+        margin-right: -6px;
+        padding: 20px 0;
+    }
+    main ul li
+    {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 97%;
+        border: 2px solid #551a8b;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: monospace;
+    }
+
+    main ul li:hover
+    {
+        padding: 3px;
+        transition: .2s;
+        color: white;
+        background: rgba(255, 238, 2, 0.877);
+        border:2px solid #DDD ;
+    }
+    main .sh
+    {
+        display: inline;
+    }
+    .home
+        {
+            background:url(../img/home-bg.jpg);
+            background-size: cover;
+            padding-top: 55px;
+            width: 100%;
+            height: 670px;
+            background-position: center;
+        }
+    .home .contant
+    {
+        display: block;
+        width: 82%;
+        text-align: center;
+    }
+    .home .contant h3
+    {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 43px;
+        margin-bottom: 0px;
+        margin-top: -29px;
+    }
+    .home .contant p
+    {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .home .contant button
+    {
+        margin-right: 63px;
+        margin-top: 25px;
+    }
+    .home .img
+    {
+        width: 69%;
+    margin-top: 30px;
+    float: none;
+    margin-left: 86px;
+    }
+/*end home*/
+/*Start feature*/
+    .featur .box-container .box, .service .box-container .box, .project .box-container .box, .team .container .box,.price .container .box
+    {
+        width: 100%;
+    }
+    .team .container .box{
+        margin-right: 95px;
+    }
+    .contact .half
+    {
+        width: 80%;
+    }
+    .contact .half .inbox input, .contact .half .inbox  textarea
+    {
+        width: 95%;
+    }
+    .footer .container .box
+    {
+        width: 25%;
+        margin-right: 41px
+    }
+}
+
+@media (max-width:1200px) {
+    main ul
+    {
+        display: none;
+        width: 100%;
+        background: #DDD;
+        margin-top: -10px;
+        margin-right: -6px;
+        padding: 20px 0;
+    }
+    main ul li
+    {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 97%;
+        border: 2px solid #551a8b;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: monospace;
+    }
+
+    main ul li:hover
+    {
+        padding: 3px;
+        transition: .2s;
+        color: white;
+        background: rgba(255, 238, 2, 0.877);
+        border:2px solid #DDD ;
+    }
+    main .sh
+    {
+        display: inline;
+    }
+    .home
+        {
+            background:url(../img/home-bg.jpg);
+            background-size: cover;
+            padding-top: 55px;
+            width: 100%;
+            height: 870px;
+            background-position: center;
+        }
+    .home .contant
+    {
+        display: block;
+        width: 82%;
+        text-align: center;
+    }
+    .home .contant h3
+    {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 43px;
+        margin-bottom: 0px;
+        margin-top: -29px;
+    }
+    .home .contant p
+    {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .home .contant button
+    {
+        margin-right: 63px;
+        margin-top: 25px;
+    }
+    .home .img
+    {
+        width: 69%;
+    margin-top: 30px;
+    float: none;
+    margin-left: 160px;
+    }
+    .featur .box-container .box, .service .box-container .box, .project .box-container .box, .team .container .box,.price .container .box
+    {
+        width: 43%;
+    }
+    .team .container .box{
+        margin-right: 95px;
+    }
+    .contact .half
+    {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .contact .half .inbox input, .contact .half .inbox  textarea
+    {
+        width: 95%;
+    }
+    .footer .container .box
+    {
+        width: 21%;
+        margin: 21px
+    }
+}
