@@ -154,16 +154,19 @@
         font-size: 43px;
         margin-bottom: 0px;
         margin-top: -29px;
+        margin-left: 88px;
     }
     .home .contant p
     {
         width: 100%;
         margin-bottom: 8px;
+        margin-left: 95px;
     }
     .home .contant button
     {
         margin-right: 63px;
         margin-top: 25px;
+        margin-left: 236px;
     }
     .home .img
     {
